@@ -1,0 +1,3 @@
+$baseUrl = '';
+$contact = '';
+$email = '';

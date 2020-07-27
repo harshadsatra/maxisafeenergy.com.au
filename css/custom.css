@@ -1,0 +1,76 @@
+.main-header .main-box .logo-box .logo img{
+	height: 55px;
+    margin: 12px 0;
+    max-width: none;
+}
+.sticky-inner-container .logo img{
+	height: 40px;
+	margin: 10px 0;
+}
+
+.btn-style-one{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0093e9+0,2fe557+50,0093e9+100 */
+	background: rgb(0,147,233); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(0,147,233,1) 0%, rgba(47,229,87,1) 50%, rgba(0,147,233,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(0,147,233,1) 0%,rgba(47,229,87,1) 50%,rgba(0,147,233,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(0,147,233,1) 0%,rgba(47,229,87,1) 50%,rgba(0,147,233,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0093e9', endColorstr='#0093e9',GradientType=1 ); /* IE6-9 */
+	background-size: 200%;
+	background-position:100% 0;
+	transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+}
+.btn-style-one:hover{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0093e9+0,2fe557+50,0093e9+100 */
+	background: rgb(0,147,233); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(0,147,233,1) 0%, rgba(47,229,87,1) 50%, rgba(0,147,233,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(0,147,233,1) 0%,rgba(47,229,87,1) 50%,rgba(0,147,233,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(0,147,233,1) 0%,rgba(47,229,87,1) 50%,rgba(0,147,233,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0093e9', endColorstr='#0093e9',GradientType=1 ); /* IE6-9 */
+	background-size: 200%;
+	background-position: 0 0;
+}
+
+/* Header */
+.fixed-header .sticky-header,.header-style-two .main-box{background: #0093E9;}
+
+/* Home Page */
+.approach-section{
+	background:url(../img/service-bg-2.jpg) bottom right no-repeat;
+	background-size: 100%;
+}
+.approach-section .upper-box{
+	background:url(../img/service-bg.jpg) bottom right no-repeat;
+	background-size: cover;
+	text-align: left;
+}
+.approach-section .upper-box:before{
+	background-color: rgba(0,0,0,0.30);
+}
+
+.approach-section .upper-box h2{padding-left: 80px;}
+
+/* Contact Bg */
+.contact-bg{
+	background:url(../img/contact-bg.jpg) bottom right no-repeat;
+	background-size: cover;
+}
+.contact-bg:before{display: none;}
+.page-title h1,.page-title .page-breadcrumb li:last-child{color: #2fe557;}
+
+/* Footer */
+.max-cta{display: block;width: 100%;display: block;padding: 0; }
+.max-cta h3{font-weight: 500;font-size: 26px;text-transform: capitalize;}
+.max-footer{
+	background:url(../img/footer-bg.jpg) top right no-repeat;
+	background-size: cover;
+}
+.max-footer .logo img{width: 250px;margin-bottom: 50px;}
+.max-footer .list-style-one li,.max-footer .list-style-one li .icon,.social-icon-one li a{color: #fff; }
+.max-footer .footer-bottom{background:transparent;}
+
+
+
